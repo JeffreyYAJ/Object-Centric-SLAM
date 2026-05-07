@@ -1,0 +1,8 @@
+*.sh
+*.class
+*.yaj
+.vscode
+bin/
+out/
+build/
+CODE_REVIEW.md
