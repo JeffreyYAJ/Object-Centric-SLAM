@@ -23,8 +23,8 @@ class VisualOdometry:
         self.frame_stage = 0 # 0: Initialisation, 1: Processus continu
         self.new_frame = None
         self.last_frame = None
-        self.px_ref = None # Points de l'image précédente
-        self.px_cur = None # Points de l'image courante
+        self.px_ref = None 
+        self.px_cur = None 
         
         self.cur_R = np.eye(3)
         self.cur_t = np.zeros((3, 1))
